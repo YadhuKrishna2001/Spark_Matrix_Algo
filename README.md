@@ -1,0 +1,5 @@
+# Spark_Matrix_Algo
+In essence, the code leverages Spark's ability to handle distributed matrices (although in this simple example, the matrices are small and fit in memory) and uses NumPy for the actual mathematical computations due to its efficient array manipulation capabilities.
+PySpark MLlib: This is Spark's machine learning library. The Matrices class comes from pyspark.mllib.linalg, which is part of MLlib and provides functionality for creating and manipulating different types of matrices and vectors that can be used in a distributed computing environment.
+NumPy: This is a fundamental package for scientific computing in Python. The code uses NumPy arrays to perform the actual matrix operations (addition, subtraction, multiplication, and transpose) because NumPy provides highly optimized functions for these tasks.
+So, the code is a combination of PySpark's data structures for representing matrices and NumPy's powerful capabilities for performing mathematical operations on those matrices
